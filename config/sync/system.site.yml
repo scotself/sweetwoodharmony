@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: 37312525-2664-4f04-8b30-780744ed4e09
+name: 'Sweetwood Harmony'
+mail: noreply@sweetwoodharmony.com
+slogan: 'Gospel songs in sweet three-part harmony'
+page:
+  403: ''
+  404: ''
+  front: /node/3
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

@@ -1,0 +1,41 @@
+{#
+/**
+ * @file
+ * Page layout for the Sweetwood theme.
+ */
+#}
+<div class="page">
+  <header class="site-header">
+    <div class="container site-header__inner">
+      {{ page.header }}
+      {{ page.primary_menu }}
+    </div>
+  </header>
+
+  {% if is_front %}
+    <section class="hero">
+      <div class="container">
+        <p class="hero__eyebrow">Gospel trio</p>
+        <h1 class="hero__title">{{ site_name }}</h1>
+        {% if site_slogan %}
+          <p class="hero__slogan">{{ site_slogan }}</p>
+        {% endif %}
+      </div>
+    </section>
+  {% endif %}
+
+  <main class="site-main" role="main">
+    <a id="main-content" tabindex="-1"></a>
+    <div class="container container--narrow">
+      {{ page.highlighted }}
+      {{ page.content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      {{ page.footer }}
+      <p class="site-footer__copy">&copy; {{ "now"|date("Y") }} {{ site_name }}</p>
+    </div>
+  </footer>
+</div>

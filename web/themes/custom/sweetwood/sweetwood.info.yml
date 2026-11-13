@@ -1,0 +1,13 @@
+name: Sweetwood
+type: theme
+description: 'Simple custom theme for the Sweetwood Harmony gospel trio site.'
+core_version_requirement: ^11
+base theme: false
+libraries:
+  - sweetwood/global
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  highlighted: 'Highlighted'
+  content: 'Content'
+  footer: 'Footer'

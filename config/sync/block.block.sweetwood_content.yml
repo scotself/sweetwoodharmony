@@ -1,0 +1,20 @@
+uuid: 9b5b980c-3fee-4934-9522-c465cad6a0fa
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sweetwood
+id: sweetwood_content
+theme: sweetwood
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

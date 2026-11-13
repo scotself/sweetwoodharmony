@@ -1,0 +1,20 @@
+uuid: 5753573b-01c4-4716-bfb0-1e7fe42efb25
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sweetwood
+id: sweetwood_messages
+theme: sweetwood
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

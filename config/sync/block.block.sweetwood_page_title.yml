@@ -1,0 +1,18 @@
+uuid: 64a62717-029d-46b6-b426-76ab333e1810
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sweetwood
+id: sweetwood_page_title
+theme: sweetwood
+region: content
+weight: -10
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: ''
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: e81f96d1-51d4-47b5-aa64-39fa88b01db9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - sweetwood
+id: sweetwood_local_tasks
+theme: sweetwood
+region: content
+weight: -9
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: ''
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }
